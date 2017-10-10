@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "639a207ca8ac9e82b6b3ec2264d044b2",
+    "content-hash": "d0da1ead1e6985f0859f0e4c3e3aeebb",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -683,16 +683,16 @@
         },
         {
             "name": "moloquent/moloquent",
-            "version": "0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moloquent/moloquent.git",
-                "reference": "2c0520e68be063f606649806f96834ecaf4613bd"
+                "reference": "c24deb4e63c57f6f6ae7926ddeac1a6f4faddf24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moloquent/moloquent/zipball/2c0520e68be063f606649806f96834ecaf4613bd",
-                "reference": "2c0520e68be063f606649806f96834ecaf4613bd",
+                "url": "https://api.github.com/repos/moloquent/moloquent/zipball/c24deb4e63c57f6f6ae7926ddeac1a6f4faddf24",
+                "reference": "c24deb4e63c57f6f6ae7926ddeac1a6f4faddf24",
                 "shasum": ""
             },
             "require": {
@@ -740,7 +740,7 @@
                 "mongo",
                 "mongodb"
             ],
-            "time": "2017-02-20T13:32:41+00:00"
+            "time": "2017-09-21T12:06:57+00:00"
         },
         {
             "name": "mongodb/mongodb",
@@ -3947,7 +3947,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "moloquent/moloquent": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
